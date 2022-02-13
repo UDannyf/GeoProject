@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PoligooDaule.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>PoligooDaule</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-79.98484583519095,-1.828210952196036,0 -79.98472136584938,-1.828303486487716,0 -79.98449201286189,-1.828230694838414,0 -79.98420518451515,-1.8281733640811,0 -79.9837272817414,-1.828016102048698,0 -79.98324375771787,-1.82799210494216,0 -79.98205831682446,-1.827445891791871,0 -79.98176953811657,-1.827177517841168,0 -79.98138174361687,-1.826649833984632,0 -79.98114494822582,-1.825920183880197,0 -79.98111505045503,-1.825459035250137,0 -79.98129778486654,-1.825446503118245,0 -79.98133673140391,-1.825885863610478,0 -79.98157164908817,-1.826529597385598,0 -79.98196418019599,-1.826988449691936,0 -79.98220810167189,-1.827176044178512,0 -79.98335736339,-1.827668651851613,0 -79.98379845080591,-1.8277718981369,0 -79.98436711171345,-1.827869570264794,0 -79.98484583519095,-1.828210952196036,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
