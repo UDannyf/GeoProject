@@ -24,6 +24,8 @@ El inicio incluye un dashboard con la información de capas, mapas, usuarios
 ### Deepforest
 El módulo de deepforest localizado en apps/deepforest debe inicar sesión, solo acepta formato .tif 
 ![O](forest_result/Screen/deep1.png "main") 
+
+Descargar archivo **Shapefile** descarga un archivo .zip
 ![O](forest_result/Screen/deep2.png "main") 
 
 
