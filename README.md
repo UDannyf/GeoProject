@@ -12,9 +12,19 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 | Ortofoto | Máscara | Zona reforestable |
 | --------- | --------- | --------- |
 | ![O](forest_result/original.png "Ortofoto") | ![M](forest_result/mask.png "Máscara") | ![Z](forest_result/zone.png "Máscara")|
+## Instalación
+* Desarrollo
+     * Seguir la **[Guía de instalación](Guia_Instalacion.pdf)** 
+       > Para poner en producción considerar la documentación oficial de [Geonode](https://docs.geonode.org/en/master/about/index.html#) de acuerdo al sistema operativo 
+
+## Sistema
+### Inicio
+El inicio incluye un dashboard con la inforamción de capas, mapas, usuarios
+![O](forest_result/Screen/main.png "main")  
+
 ## Modificación de Geonode
 * Diseño 
-     * Agregar Logo **[CIDIS](forest_app/logo.png)**
+     * Agregar Logo **[CIDIS](Guia_Instalacion.pdf)**
      * Fondo para pagina principal
        > Para futuras implementaciones verificar licencia de uso de imagen
 * Funcionalidad
