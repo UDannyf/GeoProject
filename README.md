@@ -20,7 +20,7 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 ## Sistema
 ### Inicio
 El inicio incluye un dashboard con la inforamción de capas, mapas, usuarios
-![O](forest_result/Screen/main.png "main")  
+![O](forest_result/Screen/main.png "main")  ![O](forest_result/Screen/main.png "main") 
 
 ## Modificación de Geonode
 * Diseño 
