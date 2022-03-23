@@ -8,6 +8,16 @@ Sistema de gestión de información geospacial para reforestación de bosques me
 ## Origen de datos
 La fuente de información para el sistema proviene de imágenes aéreas capturadas por drones. A partir de estas imágenes se genera una ortofoto con OpenDroneMap, luego mediante el uso de **[DeepForest](https://deepforest.readthedocs.io/en/latest/)** se elabora una máscara binaria para generar un archivo shapefile con infomración de la zona que no posee bosques.
 ## Proceso de imagenes
+Para el procesamiento de las imágenes deepforest provee un dataframe con las coordenadas de cada copa de árbol detectada, además con operaciones morfológicas de erosión y apertura se agrupa para formar una zona de bosque.
 | Ortofoto | Máscara | Zona reforestable |
 | --------- | --------- | --------- |
 | ![O](forest_result/original.png "Ortofoto") | ![M](forest_result/mask.png "Máscara") | ![Z](forest_result/zone.png "Máscara")|
+## Modificación de Geonode
+* Diseño 
+ * Agregar Logo **[CIDIS](forest_app/logo.png)**
+ * Fondo para pagina principal
+  * > Para futuras implementaciones verificar licencia de uso de imagen
+* Funcionalidad
+ * Anotaciones: Versión de Mapstore 3.3.x
+ * DeepForest: Aplicación para obtener shapefile
+  * > Forest, aplicación de django agregada al proyecto que genera el shapefile a partir de una ortofoto
