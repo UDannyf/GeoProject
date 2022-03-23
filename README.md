@@ -16,8 +16,8 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 * Diseño 
  * Agregar Logo **[CIDIS](forest_app/logo.png)**
  * Fondo para pagina principal
-  * > Para futuras implementaciones verificar licencia de uso de imagen
+   > Para futuras implementaciones verificar licencia de uso de imagen
 * Funcionalidad
  * Anotaciones: Versión de Mapstore 3.3.x
  * DeepForest: Aplicación para obtener shapefile
-  * > Forest, aplicación de django agregada al proyecto que genera el shapefile a partir de una ortofoto
+   > Forest, aplicación de django agregada al proyecto que genera el shapefile a partir de una ortofoto
