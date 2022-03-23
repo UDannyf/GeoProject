@@ -39,3 +39,5 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 
 * Acceso a la interfaz de administración de Django y Geoserver
 ![O](forest_result/Screen/admin.png "main") 
+
+## Notas
