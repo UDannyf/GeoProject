@@ -41,3 +41,4 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 ![O](forest_result/Screen/admin.png "main") 
 
 ## Notas
+En desarrollo localhost **user**:admin **password**:admin
