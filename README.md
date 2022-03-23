@@ -25,7 +25,7 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 * El módulo de deepforest localizado en apps/deepforest debe inicar sesión, solo acepta formato .tif 
 ![O](forest_result/Screen/deep1.png "main") 
 
-* Descargar archivo **Shapefile** descarga un archivo .zip
+* Una vez cargada la imagen se puede descargarun **Shapefile** en un archivo zip que contine los archivos de la capa.
 ![O](forest_result/Screen/deep2.png "main") 
 
 * Cargar capa, seleccionar el archivo zip y la imagen tif original agregará dos capas adicionales al sistema tambien se puede subir capas de manera independiente
