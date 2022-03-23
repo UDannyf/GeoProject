@@ -19,8 +19,13 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 
 ## Sistema
 ### Inicio
-El inicio incluye un dashboard con la inforamción de capas, mapas, usuarios
-![O](forest_result/Screen/main.png "main")  ![O](forest_result/Screen/main.png "main") 
+El inicio incluye un dashboard con la información de capas, mapas, usuarios
+![O](forest_result/Screen/main.png "main") 
+### Deepforest
+El módulo de deepforest localizado en apps/deepforest debe inicar sesión, solo acepta formato .tif 
+![O](forest_result/Screen/deep1.png "main") 
+![O](forest_result/Screen/deep2.png "main") 
+
 
 ## Modificación de Geonode
 * Diseño 
