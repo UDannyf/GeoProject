@@ -20,4 +20,4 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 * Funcionalidad
      *  Anotaciones: Versión de Mapstore 3.3.x
      *  DeepForest: Aplicación para obtener shapefile
-     > Forest, aplicación de django agregada al proyecto que genera el shapefile a partir de una ortofoto
+        > Forest, aplicación de django agregada al proyecto que genera el shapefile a partir de una ortofoto
