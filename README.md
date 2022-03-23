@@ -19,22 +19,23 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 
 ## Sistema
 ### Inicio
-El inicio incluye un dashboard con la información de capas, mapas, usuarios
+* El inicio incluye un dashboard con la información de capas, mapas, usuarios
 ![O](forest_result/Screen/main.png "main") 
 ### Deepforest
-El módulo de deepforest localizado en apps/deepforest debe inicar sesión, solo acepta formato .tif 
+* El módulo de deepforest localizado en apps/deepforest debe inicar sesión, solo acepta formato .tif 
 ![O](forest_result/Screen/deep1.png "main") 
 
-Descargar archivo **Shapefile** descarga un archivo .zip
+* Descargar archivo **Shapefile** descarga un archivo .zip
 ![O](forest_result/Screen/deep2.png "main") 
 
+* Cargar capa, seleccionar el archivo zip y la imagen tif original agregará dos capas adicionales al sistema tambien se puede subir capas de manera independiente
+![O](forest_result/Screen/upload.png "main") 
 
-## Modificación de Geonode
-* Diseño 
-     * Agregar Logo **[CIDIS](Guia_Instalacion.pdf)**
-     * Fondo para pagina principal
-       > Para futuras implementaciones verificar licencia de uso de imagen
-* Funcionalidad
-     *  Anotaciones: Versión de Mapstore 3.3.x
-     *  DeepForest: Aplicación para obtener shapefile
-        > Forest, aplicación de django agregada al proyecto que genera el shapefile a partir de una ortofoto
+* Mapas, catalogo - anotaciones
+![O](forest_result/Screen/create.png "main") 
+
+* Kml desde Geoserver
+![O](forest_result/Screen/kml.png "main") 
+
+* Acceso a la interfaz de administración de Django y Geoserver
+![O](forest_result/Screen/admin.png "main") 
