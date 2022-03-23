@@ -14,10 +14,10 @@ Para el procesamiento de las imágenes deepforest provee un dataframe con las co
 | ![O](forest_result/original.png "Ortofoto") | ![M](forest_result/mask.png "Máscara") | ![Z](forest_result/zone.png "Máscara")|
 ## Modificación de Geonode
 * Diseño 
- *  Agregar Logo **[CIDIS](forest_app/logo.png)**
- *  Fondo para pagina principal
-   > Para futuras implementaciones verificar licencia de uso de imagen
+     * Agregar Logo **[CIDIS](forest_app/logo.png)**
+     * Fondo para pagina principal
+       > Para futuras implementaciones verificar licencia de uso de imagen
 * Funcionalidad
- *  Anotaciones: Versión de Mapstore 3.3.x
- *  DeepForest: Aplicación para obtener shapefile
-   > Forest, aplicación de django agregada al proyecto que genera el shapefile a partir de una ortofoto
+     *  Anotaciones: Versión de Mapstore 3.3.x
+     *  DeepForest: Aplicación para obtener shapefile
+     > Forest, aplicación de django agregada al proyecto que genera el shapefile a partir de una ortofoto
