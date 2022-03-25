@@ -1,0 +1,15 @@
+Usuario Ubuntu
+Usuario: cidis
+Password: cidis2022
+***************************
+Usuario Geonode
+Usuario: admin
+Password: admin
+************************************
+Para ejecutar Geonode en el Terminal
+$ workon geo
+$ cd /home/cidis/Materia_Integradora/geonode
+$ DJANGO_SETTINGS_MODULE=geonode.local_settings paver start
+***********************************************************
+Para detener Geonode
+$ DJANGO_SETTINGS_MODULE=geonode.local_settings paver stop
